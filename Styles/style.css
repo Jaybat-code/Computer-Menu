@@ -1,6 +1,6 @@
 body{
     background-color: pink;
-    background-image: url(../Assets/hacker.svg);
+    background-image: url(../Assets/pattern-7455773_640.webp);
     background-size: 100vw 100vh
 }
 .container{
@@ -10,7 +10,7 @@ body{
     margin-right: auto;
     max-width: 500px;
     padding:20px;
-    opacity: .95
+    opacity: .5
 }
 h1{
     margin-top:5px;
@@ -35,6 +35,7 @@ hr{
 }
 .item p{
     display: inline-block;
+    margin-top:0px
 }
 .Computer{
     text-align: left;
