@@ -1,15 +1,20 @@
 body{
-    background-color: black;
-    background-image: url(../Assets/Resized\ Haxor.png);
-    background-size: 100vw
+    background-color: pink;
+    background-image: url(../Assets/hacker.svg);
+    background-size: 100vw 100vh
 }
 .container{
-    background-color: lime;
+    background-color: mediumslateblue;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     max-width: 500px;
-    padding:20px
+    padding:20px;
+    opacity: .95
+}
+h1{
+    margin-top:5px;
+    
 }
 h1,h2{
     text-align: center;
@@ -28,3 +33,24 @@ hr{
     background-color: purple;
     border-color: black;
 }
+.item p{
+    display: inline-block;
+}
+.Computer{
+    text-align: left;
+    width:75%
+}
+.Computer:hover{
+    color:purple;
+    cursor:grab;
+}
+.Price{
+    text-align: right;
+    width: 25%;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+  }
